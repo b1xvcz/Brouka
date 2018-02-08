@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <title>Elo elo</title>
     
+
 </head>
 <body>
     <h1>Tu się będziemy bawić :)</h1>
     <h2>To mniejszy paragraf</h2>
+    <input type="button" title="Dupa" onclick=eloelo() />Dupa dupa dupa<br />
+
+    <button onclick="eloelo()">AAAAAAAA</button>
+    <br />
+    <input type="text" id="tekst" name="tekst" />
+    <button onclick="wyswietlacz()">AAA</button>
 </body>
+
+
+
 </html>
+
+<script type="text/javascript">
+    function eloelo() {
+        prompt('elo');
+    };
+
+    function wyswietlacz() {
+        napis = "";
+        napis = document.getElementById("tekst").value;
+        alert(napis);
+    };
+</script>
